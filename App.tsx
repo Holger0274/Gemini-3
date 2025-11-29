@@ -9,6 +9,7 @@ import BlogSection from './components/BlogSection';
 import TrustSection from './components/TrustSection';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import CursorTrail from './components/CursorTrail';
 
 function App() {
   // Accessibility: Handle reduced motion
@@ -21,8 +22,11 @@ function App() {
 
   return (
     <div className="bg-deepSpace min-h-screen text-slateBlue font-sans overflow-x-hidden selection:bg-neonMagenta selection:text-white">
-      <a 
-        href="#contact" 
+      {/* Cursor Trail Effect */}
+      <CursorTrail />
+
+      <a
+        href="#contact"
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 z-50 bg-electricBlue text-deepSpace px-4 py-2 font-bold rounded"
       >
         Zum Kontaktformular springen
