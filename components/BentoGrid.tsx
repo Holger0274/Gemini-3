@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import { Code2, Briefcase, Users2, ArrowUpRight } from 'lucide-react';
-import { cn } from '../lib/utils';
+import { cn } from '@/lib/utils';
 
 // 3D Tilt Card Component with glassmorphism
 interface TiltCardProps {
